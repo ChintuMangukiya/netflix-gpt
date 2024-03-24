@@ -1,0 +1,76 @@
+.Login{
+    height : 120vh;
+    background-size: cover;
+    background-image : url("https://assets.nflxext.com/ffe/siteui/vlv3/9d3533b2-0e2b-40b2-95e0-ecd7979cc88b/a3873901-5b7c-46eb-b9fa-12fea5197bd3/IN-en-20240311-popsignuptwoweeks-perspective_alpha_website_small.jpg");   
+}
+.inner_Login{
+    height: 120vh;
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3));
+}
+.form{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form{
+    position: fixed;
+    height: 60vh;
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+    justify-content: center;
+    align-items:center;
+    backdrop-filter: blur(5px);
+    background-color: rgba(0, 0, 0, 0.466);
+    border: 1px solid rgba(116, 116, 116, 0.445);
+    border-radius: 10px;
+}
+.sign{
+    text-align: left;
+    color: white;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+input , button{
+    color: white;
+    height: 50px;
+    width: 300px;
+    border: none !important;
+    border-radius: 5px;
+}
+
+input{
+    background-color: rgba(255, 255, 255, 0.089);
+}
+
+[type = submit]{
+    color: white;
+    margin-top: 20px;
+    background-color: red;
+}
+
+.header{
+    position: fixed;
+}
+
+.signUpText{
+    color: rgb(204, 204, 204);
+    font-size: small;
+    font-weight: 100;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signUpText span{
+    color: gray;
+}
+.signUpText span:hover{
+    cursor: pointer;
+}
+
+button:hover {
+    cursor: pointer;
+}
